@@ -82,6 +82,58 @@ Use drag-and-drop to reorder tasks.
 
 Add due dates to stay on track with deadlines.
 
+🔰 General Understanding
+
+This is a To-Do List web app built using React, a JavaScript library for creating user interfaces.
+
+The app helps users add, view, and delete tasks they need to complete.
+
+It uses React's component-based architecture, where UI elements are split into reusable parts.
+
+The core logic is inside a component called App, which manages all the functionality.
+
+📋 Features Included
+
+Users can enter a task using a text input field.
+
+They can also set an optional due date using a date picker.
+
+Each task is added to a list shown on the page.
+
+There’s a "Delete" button (❌) next to each task to remove it.
+
+🌗 Dark Mode
+
+A button toggles between Light Mode and Dark Mode for better visual experience.
+
+When Dark Mode is enabled, background and text colors change for a night-friendly UI.
+
+🔃 Drag and Drop
+
+Tasks are draggable, allowing users to reorder their task list.
+
+This is achieved using basic drag-and-drop events built into HTML.
+
+⚙️ Technical Concepts (Simplified)
+
+The app uses React state (useState) to track what tasks are added.
+
+When a user types or clicks a button, state updates, which re-renders the interface.
+
+useEffect is used to apply the Dark Mode class to the body element dynamically.
+
+Each task is stored in a JavaScript array, with optional dueDate.
+
+🧪 Extra Details
+
+JSX is used for rendering HTML-like syntax inside the JavaScript code.
+
+The app doesn’t save tasks after refreshing — it stores everything temporarily in memory.
+
+Styling is done using simple CSS-in-HTML <style>, no external CSS files needed.
+
+Everything runs in the browser — no backend or database is used.
+
 
 ⚠️ Challenges Faced in Building the Advanced To-Do List (React)
 
